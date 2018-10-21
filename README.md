@@ -440,16 +440,23 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |   |-- Rocks
         |   |   |-- Trees
         |   |-- Office
-        |-- Characters
-        |   |-- Bob
-        |   |-- Common
+	|--Actors
+        |   |-- Characters
+        |   |   |-- Bob
+        |   |   |-- Common
         |   |   |-- <a href="#2.7">Animations</a>
         |   |   |-- Audio
-        |   |-- Jack
-        |   |-- Steve
-        |   |-- <a href="#2.1.3">Zoe</a>
+        |   |   |-- Jack
+        |   |   |-- Steve
+        |   |   |-- <a href="#2.1.3">Zoe</a>
+	|   |-- Weapons
+        |   |   |-- Common
+        |   |   |-- Pistols
+        |   |   |   |-- DesertEagle
+        |   |   |   |-- RocketPistol
+        |   |   |-- Rifle 
         |-- <a href="#2.5">Core</a>
-        |   |-- Characters
+        |   |-- IA 
         |   |-- Engine
         |   |-- <a href="#2.1.2">GameModes</a>
         |   |-- Interactables
@@ -460,22 +467,15 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |-- Fire
         |   |-- Weather
         |-- <a href="#2.4">Maps</a>
-        |   |-- Campaign1
-        |   |-- Campaign2
+        |   |-- Level1
+        |   |-- Level2
         |-- <a href="#2.8">MaterialLibrary</a>
-        |   |-- Debug
-        |   |-- Metal
-        |   |-- Paint
-        |   |-- Utility
-        |   |-- Weathering
-        |-- Placeables
-        |   |-- Pickups
-        |-- Weapons
-            |-- Common
-            |-- Pistols
-            |   |-- DesertEagle
-            |   |-- RocketPistol
-            |-- Rifles
+            |-- Debug
+            |-- Metal
+            |-- Paint
+            |-- Utility
+            |-- Weathering
+       
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
