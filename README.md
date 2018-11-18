@@ -423,7 +423,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 <pre>
 |-- Content
     |-- <a href="#2.2">GenericShooter</a>
-        |-- Art
+        |-- Environment
         |   |-- Industrial
         |   |   |-- Ambient
         |   |   |-- Machinery
