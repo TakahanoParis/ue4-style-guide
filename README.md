@@ -283,6 +283,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Material                | M_         |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
 | Material Function       | MF_        |            |                                  |
+| Material  Light Function | MLF_        |            |                                  |
 | Material Instance       | MI_        |            |                                  |
 | Material Parameter Collection | MPC_ |            |                                  |
 | Subsurface Profile      | SP_        |            |                                  |
