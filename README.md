@@ -427,28 +427,18 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |   |-- Rocks
         |   |   |-- Trees
         |   |-- Office
-	|--Actors
-        |   |-- Characters
-        |   |   |-- Bob
-        |   |   |-- Common
-        |   |   |-- <a href="#2.7">Animations</a>
-        |   |   |-- Audio
-        |   |   |-- Jack
-        |   |   |-- Steve
-        |   |   |-- <a href="#2.1.3">Zoe</a>
-	|   |-- Weapons
-        |   |   |-- Common
-        |   |   |-- Pistols
-        |   |   |   |-- DesertEagle
-        |   |   |   |-- RocketPistol
-        |   |   |-- Rifle 
+        -- Characters
+        |   |-- Bob
+        |   |-- Common
+        |   |-- <a href="#2.7">Animations</a>
+        |   |-- Audio
+        |   |-- Steve
+        |   |-- <a href="#2.1.3">Zoe</a>
         |-- <a href="#2.5">Core</a>
         |   |-- IA 
         |   |-- Engine
         |   |-- <a href="#2.1.2">GameModes</a>
-        |   |-- Interactables
-        |   |-- Pickups
-        |   |-- Weapons
+        |-- Interactables
         |-- Effects
         |   |-- Electrical
         |   |-- Fire
@@ -463,8 +453,8 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
             |-- Debug
             |-- Metal
             |-- Paint
-            |-- Utility
-            |-- Weathering
+            |-- Common
+	    |-- PostProcess
        
 </pre>
 
