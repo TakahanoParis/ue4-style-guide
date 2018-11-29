@@ -435,9 +435,10 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |-- Steve
         |   |-- <a href="#2.1.3">Zoe</a>
         |-- <a href="#2.5">Core</a>
-        |   |-- IA 
+        |   |-- ArtificialIntelligence
         |   |-- Engine
         |   |-- <a href="#2.1.2">GameModes</a>
+	|   |-- UserInterface
         |-- Interactables
         |-- Effects
         |   |-- Electrical
